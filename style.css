@@ -1,0 +1,533 @@
+/* style navbar awal */
+.pembungkus1 {
+    width: 100%;
+    background-color: #aeaeae;
+}
+.apple-logo {
+    display: flex;
+    justify-content: start;
+    float: left;
+}
+.logo1 {
+    width: 80px;
+    aspect-ratio: 4/3;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: -15px;
+}
+.text-apple {
+    float: left;
+    display: flex;
+}
+.text {
+    font-family: monospace;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 14px;
+    margin-left: -8px;
+    letter-spacing: 1px;
+    cursor: default;
+    color: black;
+}
+.navbar-lish {
+    display: flex;
+    justify-content: end;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+li {
+    margin-top: 17px;
+    margin-right: 15px;
+    text-transform: uppercase;
+    font-family: monospace;
+}
+li:hover {
+    text-decoration: underline;
+}
+.li1 {
+    padding-right: 10px;
+    border-right: 1px solid black;
+}
+.li2 {
+    margin-left: -30px;
+    padding-right: 10px;
+    border-right: 1px solid black;
+}
+/* style navbar akhir */
+
+
+
+/* style row kedua awal */
+.pembungkus2 {
+    width: 100%;
+    height: 35px;
+    background-color: #7d736f;
+    display: flex;
+    justify-content: center;
+}
+.text-promo {
+    font-family: monospace;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 6px;
+    cursor: default;
+}
+.limapuluh {
+    color: rgb(232, 24, 24);
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.limapuluh:hover {
+    text-decoration: underline;
+}
+/* style row kedua akhir */
+
+
+/* style row pertama awal */
+.gambar-apple-geser {
+    display: flex;
+    width: 100%;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+}
+.gambar-apple1 {
+    background-image: url(img/gambar1.jpeg);
+    width: 100%;
+    height: 450px ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 -50px;
+    flex-shrink: 0;
+    scroll-snap-align: center;
+}
+.gambar-apple2 {
+    background-image: url(img/gambar2.jpeg);
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-shrink: 0;
+    scroll-snap-align: center;
+    background-position: 0 -45px;
+}
+.gambar-apple3 {
+    background-image: url(img/gambar3.jpeg);
+    width: 100%;
+    height: 450px;
+    background-repeat: no-repeat ;
+    background-size: cover;
+    flex-shrink: 0;
+    scroll-snap-align: center;
+    background-position: 0 -240px;
+}
+/* style row pertama akhir */
+
+
+/* style row ketiga awal */
+.pembungkus3 {
+    width: 100%;
+    background-color: #aeaeae;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.isi-box1-products1 {
+    display: flex;
+    float: left;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+.box1-products1 {
+    width: 280px;
+    height: 400px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    margin-top: 55px;
+    margin-left: 100px;
+    transition: 1s;
+    box-shadow: 0 0 15px 5px black;
+    box-sizing: border-box;
+}
+.box1-products1:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px 5px black;
+}
+.isi-box2-products2 {
+    display: flex;
+    float: left;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box2-products2 {
+    width: 280px;
+    height: 400px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    margin-top: 55px;
+    margin-bottom: 40px;
+    margin-left: 100px;
+    transition: 1s;
+    box-shadow: 0 0 15px 5px black;
+    box-sizing: border-box;
+}
+.box2-products2:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px 5px black;
+}
+.isi-box3-products3 {
+    display: flex;
+    float: left;
+    flex-wrap: wrap;
+    justify-content: right;
+}
+.box3-products3 {
+    width: 280px;
+    height: 400px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    margin-top: 55px;
+    margin-bottom: 40px;
+    margin-left: 100px;
+    transition: 1s;
+    box-shadow: 0 0 15px 5px black;
+    box-sizing: border-box;
+}
+.box3-products3:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px 5px black;
+}
+.box4-products4 {
+    width: 280px;
+    height: 400px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-left: 100px;
+    margin-bottom: 40px;
+    transition: 1s;
+    box-shadow: 0 0 15px 5px black;
+    box-sizing: border-box;
+}
+.box4-products4:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px 5px black;
+}
+.box5-products5 {
+    width: 280px;
+    height: 400px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-bottom:40px ;
+    margin-left: 100px;
+    transition: 1s;
+    box-shadow: 0 0 15px 5px black;
+    box-sizing: border-box;
+}
+.box5-products5:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px 5px black;
+}
+.box6-products6 {
+    width: 280px;
+    height: 400px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    margin-left: 100px;
+    transition: 1s;
+    box-shadow: 0 0 15px 5px black;
+    box-sizing: border-box;
+}
+.box6-products6:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px 5px black;
+}
+.border-angka {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 8px;
+    margin-left: 8px;
+    cursor: pointer;
+    box-sizing: border-box;
+    float: left;
+}
+.icon-apple {
+    display: flex;
+    justify-content: right;
+}
+.fab {
+    font-size: 30px;
+    margin-top: 8px;
+    margin-right: 9px;
+}
+.img-products1 {
+    width: 100%;
+    height: 250px;
+    background-image: url(img/img-products1-ipxr.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -25px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.img-products2 {
+    width: 100%;
+    height: 250px;
+    background-image: url(img/img-products2-ip11pro.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -15px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.img-products3 {
+    width: 100%;
+    height: 250px;
+    background-image: url(img/img-products3-ip12promax.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -21px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.img-products4 {
+    width: 100%;
+    height: 250px;
+    background-image: url(img/img-products4-ip12mini.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px -15px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.img-products5 {
+    width: 100%;
+    height: 250px;
+    background-image: url(img/img-products5-ip13promax.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -28px 0px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.img-products6 {
+    width: 100%;
+    height: 250px;
+    background-image: url(img/img-products6-ip15promax.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px -20px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    /* media style navbar awal */
+    .logo1 {
+        margin-left: -24px;
+    }
+    .text {
+        margin-left: -12px;
+        margin-top: 18px;
+        color: black;
+    }
+    li {
+        margin-right: -5px;
+        font-size: 12px;
+        margin-top: 22px;
+    }
+    .li1 {
+        padding-right: 7px;
+    }
+    .li2 {
+        margin-left: -20px;
+        padding-right: 7px ;
+    }
+    /* media style navbar akhir */
+
+
+    /* media style row pertama awal */
+    .gambar-apple1 {
+        width: 100%;
+        height: 300px;
+        background-position: -60px 0;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: -25px 0;
+        gap: 10px;
+    }
+    .gambar-apple2 {
+        width: 100%;
+        height: 300px;
+        background-image: url(img/gambar2dihp.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 0px -30px;
+        gap: 10px;
+    }
+    .gambar-apple3 {
+        width: 100%;
+        height: 300px;
+        background-image: url(img/gambar3dihp.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 0px -15px;
+        gap: 10px;
+    }
+    /* media style row pertama akhir */
+
+    /* media style row kedua awal */
+    .text-promo {
+        margin-top: 7px;
+    }
+    /* media style row pertama akhir */
+
+    /* media style row ketiga awal */
+    .isi-box1-products1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        float: none;
+    }
+    .box1-products1 {
+        width: 300px;
+        height: 380px;
+        margin-top: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 17px;
+        box-sizing: border-box;
+    }
+    .isi-box2-products2 {
+        justify-content: center;
+        float: none;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .box2-products2 {
+        width: 300px;
+        height: 380px;
+        margin-top: 10px;
+        margin-bottom: 17px;
+        margin-left: 10px;
+        margin-right: 10px;
+        box-sizing: border-box;
+    }
+    .isi-box3-products3 {
+        justify-content: center;
+        float: none;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .box3-products3 {
+        width: 300px;
+        height: 380px;
+        margin-bottom: 17px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        box-sizing: border-box;
+    }
+    .box4-products4 {
+        width: 300px;
+        height: 380px;
+        margin-top: 10px;
+        margin-bottom: 17px;
+        margin-left: 10px;
+        margin-right: 10px;
+        box-sizing: border-box;
+    }
+    .box5-products5 {
+        width: 300px;
+        height: 380px;
+        margin-bottom: 17px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        box-sizing: border-box;
+    }
+    .box6-products6 {
+        width: 300px;
+        height: 380px;
+        margin-bottom: 40px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        box-sizing: border-box;
+    }
+    .border-angka {
+        width: 24px;
+        height: 24px;
+        border-radius: 12px;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+        font-size: 14px;
+        box-sizing: border-box;
+    }
+    .fab {
+        font-size: 24px;
+        margin-top: 8px;
+        margin-right: 8px;
+    }
+    .img-products1 {
+        width: 100%;
+        height: 250px;
+        aspect-ratio: 4/3;
+        background-position: 0px -35px;
+        box-sizing: border-box;
+    }
+    .img-products2 {
+        width: 100%;
+        height: 250px;
+        aspect-ratio: 4/3;
+        background-position: 0px -25px;
+        box-sizing: border-box;
+    }
+    .img-products3 {
+        width: 100%;
+        height: 250px;
+        aspect-ratio: 4/3;
+        background-position: 0px -28px;
+        box-sizing: border-box;
+    }
+    .img-products4 {
+        width: 100%;
+        height: 250px;
+        aspect-ratio: 4/3;
+        background-position: 0px -23px;
+        box-sizing: border-box;
+    }
+    .img-products5 {
+        width: 100%;
+        height: 250px;
+        aspect-ratio: 4/3;
+        background-position: -22px 0px;
+        box-sizing: border-box;
+    }
+    .img-products6 {
+        width: 100%;
+        height: 250px;
+        aspect-ratio: 4/3;
+        background-position: 0px -30px;
+        box-sizing: border-box;
+    }
+}
